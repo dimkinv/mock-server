@@ -1,0 +1,16 @@
+{
+    "method": "post",
+    "path": "/esproxy/main/alarms*/_search",
+    "mocks": [
+        {
+            "request": {
+                "queryParams": {},
+                "body": {}
+            },
+            "response": {
+                "code": 200,
+                "payload": {}
+            }
+        }
+    ]
+}

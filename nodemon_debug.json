@@ -1,0 +1,6 @@
+{
+    "exec": "node --inspect-brk -r ts-node/register src/app.ts",
+    "watch": "src/**/*.ts",
+    "ext": "json,ts"
+  }
+  

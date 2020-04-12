@@ -1,0 +1,32 @@
+{
+    "method": "get",
+    "path": "/example",
+    "mocks": [
+        {
+            "request": {
+                "queryParams": {},
+                "body": {}
+            },
+            "response": {
+                "code": 200,
+                "payload": {
+                    "content": "this is an example endpoint"
+                }
+            }
+        },
+        {
+            "request": {
+                "queryParams": {
+                    "someParam": "true"
+                },
+                "body": {}
+            },
+            "response": {
+                "code": 200,
+                "payload": {
+                    "content": "this is an example endpoint with query param"
+                }
+            }
+        }
+    ]
+}
